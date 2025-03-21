@@ -12,7 +12,7 @@ flipped_numbers = {
 }
 
 
-def turnCalc(number) -> str:
+def turn_calc(number):
     """
     This function takes a number as input and returns the word that is spelled out when the number is flipped upside down.
     Numbers with a leading 0 need to be passed as strings due to the way Python handles leading zeros.
@@ -26,4 +26,4 @@ def turnCalc(number) -> str:
 test_cases = [707, 5508, 3045, "07734"]
 
 for test in test_cases:
-    print(f"Input: {test} Output: {turnCalc(test)}")
+    print(f"Input: {test} Output: {turn_calc(test)}")
